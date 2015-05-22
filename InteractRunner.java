@@ -16,7 +16,7 @@ public class InteractRunner{
                 System.out.println("Enter second arg: ");
                 String second = reader.next();
                 calc.add(Integer.valueOf(first), Integer.valueOf(second));
-                System.out.println("Resukt: " + calc.getResult());
+                System.out.println("Result: " + calc.getResult());
                 calc.cleanResult();
                 System.out.println("Exit: yes/no ");
                 exit = reader.next();
